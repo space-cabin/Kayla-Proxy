@@ -3,21 +3,32 @@
 4 scripts -->
 <!DOCTYPE html>
 <html>
-  <head>
-    <!-- <link rel=""> -->
-    <title>Room reservation</title>
-  </head>
 
-  <body>
-    <div id="photos"></div>
-    <div id="description"></div>
-    <div id="reservation"></div>
-    <div id="reviews"></div>
+<head>
+  <link type="text/css" rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/6adff6c7c9.js" crossorigin="anonymous"></script>
+  <title>Room reservation</title>
+</head>
 
-    <script src="/photos/bundle.js"></script>
-    <script src="/description/bundle.js"></script>
-    <script src="/reservation/bundle.js"></script>
-    <script src="/reviews/bundle.js"></script>
+<body>
+  <div id="photos"></div>
 
-  </body>
+  <div class="container-info">
+    <div class="left">
+        <div id="description"></div>
+        <div id="reviews"></div>
+      </div>
+      <div class="border-vertical"></div>
+      <div class="right">
+        <div id="reservation"></div>
+      </div>
+  </div>
+
+  <script src="/photos/bundle.js"></script>
+  <script src="/description/bundle.js"></script>
+  <script src="/reservation/bundle.js"></script>
+  <script src="/reviews/bundle.js"></script>
+
+</body>
+
 </html>

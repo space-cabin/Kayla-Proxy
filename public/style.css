@@ -1,0 +1,32 @@
+.container-info {
+  display:flex;
+  justify-content: center;
+  margin-left: calc(21% + 19px);
+  margin-top: 1rem;
+}
+.right {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  flex: 1 0;
+  /* min-width: 35rem; */
+}
+/* #module-zone {
+  position: sticky;
+  top: 30px;
+  height: max-content;
+  width: 18rem;
+} */
+.border-vertical {
+  width: 2rem;
+  height: 18rem;
+}
+.left {
+  max-width: 696px;
+  padding-right: 24px;
+  padding-left: 24px;
+  display: flex;
+  /* grow, shrink, basis */
+  flex: 1 0 65%;
+  flex-flow: column;
+}
