@@ -21,6 +21,10 @@
   width: 2rem;
   height: 18rem;
 }
+.overview{
+  color: rgb(72, 72, 72);
+}
+
 .left {
   max-width: 696px;
   padding-right: 24px;
